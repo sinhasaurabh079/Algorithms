@@ -50,7 +50,6 @@ int TernarySearch::Rec_ternarySearch(int l, int r, int key, int ar[])
 		// Since key is not present at mid, check in which region it is present
 		// then repeat the Search operation in that region
 		if (key < ar[mid1]) {
-
 			// The key lies in [l,mid1]
 			return Rec_ternarySearch(l, mid1 - 1, key, ar);
 		}
