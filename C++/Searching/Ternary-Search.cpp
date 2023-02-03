@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 /* 
    -> Ternary search is a technique for finding the minimum or maximum value of a unimodal function and it can be useful in optimization problems.
    -> It is somehow similiar to binary search but here search space is divided into 3 part
@@ -22,6 +19,8 @@ using namespace std;
       For more reference visit: https://www.geeksforgeeks.org/ternary-search/
                                 https://cp-algorithms.com/num_methods/ternary_search.html  
 */
+#include <bits/stdc++.h>
+using namespace std;
 
 class TernarySearch{
  public:
