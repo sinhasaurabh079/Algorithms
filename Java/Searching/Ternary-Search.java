@@ -21,7 +21,7 @@
    
 */
 
-class Main
+class TernarySearch
 {
 
   // Recursive approach
